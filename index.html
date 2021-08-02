@@ -25,7 +25,7 @@
     <title>HEARTY HEARTH Pizza oven</title>
 </head>
 
-<body>
+<body class="body">
     <header class="tittlehead">
         <nav class="navbar">
             <div class="container-fluid">
@@ -64,6 +64,7 @@
                 <option value="Macon">Chicken Macon</option>
             </select>
         </div><br>
+        
         <div class="form-group">
             <label for="select">Choose the size :</label><br>
             <select class="form-group" name="Pizza Size" id="psize" required>
@@ -99,14 +100,24 @@
 
         </div>
         <br>
-        <div>
+        <div class="right">
+            <h6>Kindly choose your delivery mode!</h6>
             <input type="radio" name="deliverytype" id="delivery">
             <label for="delivery">Delivery</label>
             <input type="radio" name="deliverytype" id="pickup">
             <label for="pick-up">Pick up</label>
         </div>
         <br>
-        <button type="submit" onclick="submitOrder()">MAKE ORDER</button>
+        <br>
+        <button type="submit" class="right1" onclick="submitOrder()">MAKE ORDER</button>
+       
+        </form>
+        <br>
+        <div class="right2">
+            <h5>Thankyou for shopping with us.</h5>
+            <p>Here is your order summary:</p>
+        </div>
+        <br>
 </body>
 
 </html>
