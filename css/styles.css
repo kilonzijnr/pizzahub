@@ -42,6 +42,17 @@ font-weight: bold;
     font-weight: bold;
     color:black;
 }
-.body{
-    background-color: aquamarine;
+
+.right{
+    float:right;
+    background-color: rgb(255, 255, 8);
+}
+.right1{
+    float: left;
+    background-color: rgb(228, 140, 9);
+}
+.right2{
+    text-align: center;
+    background-image: url(../images/sheri-silver-A4EtgLN1_Fw-unsplash.jpg);
+    background-size: cover;
 }
