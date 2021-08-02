@@ -33,3 +33,15 @@ font-weight: bold;
 .ptype{
     text-align: center;
 }
+.order{
+    background-image: url(../images/dilyara-garifullina-5fn1LeWzhX4-unsplash.jpg);
+    background-size: cover;
+    opacity: 100%;
+    padding: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    color:black;
+}
+.body{
+    background-color: aquamarine;
+}
