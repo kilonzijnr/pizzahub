@@ -29,7 +29,7 @@
     <header class="tittlehead">
         <nav class="navbar">
             <div class="container-fluid">
-                <div class="navheader">
+                <div class="navheader" style="text-align: center;">
                     <p>HEARTY HEARTH PIZZA OVEN</p>
                 </div>
             </div>
@@ -53,9 +53,9 @@
         </div>
 
     </header>
-    <form class="order">
+    <form class="order" id="order">
         <div class="form-group">
-            <label for="select">Kindly select the type of pizza you want:</label><br>
+            <label for="select">Pizza type :</label><br>
             <select class="form-group" name="Pizza Type" id="ptype" required>
                 <option value="Hawaiian">Chicken Hawaiian</option>
                 <option value="Cheese">Cheese Burger</option>
@@ -65,15 +65,35 @@
             </select>
         </div><br>
         <div class="form-group">
-            <label for="select">Choose the size:</label><br>
+            <label for="select">Choose the size :</label><br>
             <select class="form-group" name="Pizza Size" id="psize" required>
                 <option value="Large">Large; Ksh:1200</option>
                 <option value="Medium">Medium; Ksh:900</option>
                 <option value="Small">Small; Ksh:600</option>
             </select>
-
         </div>
-    </form>
+        <br>
+        <div class="form-group">
+            <label for="select">Choose toppings :</label><br>
+            <select class="form-group" name="Toppings type" id="ttype" required>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Sausage">Sausage</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="select">Choose crust :</label><br>
+            <select class="form-group" name="Crust type" id="ctype" required>
+                <option value="Hawaiian">Chicken Hawaiian</option>
+                <option value="Stuffed Crust">Stuffed Crust</option>
+                <option value="Cracker Crust">Cracker Crust</option>
+                <option value="Thin Crust">Thin Crust</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" onclick="submitOrder()">MAKE ORDER</button>
 </body>
 
 </html>
