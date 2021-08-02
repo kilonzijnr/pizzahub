@@ -1,0 +1,29 @@
+.tittle{
+    color:black;
+    text-align: center;
+    background-color: cadetblueS;
+}
+.navbar{
+background-color:rgb(0, 255, 213);
+
+}
+.navheader {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-underline-position: unset;
+    text-align: center;
+}
+.intro{
+    color:rgb(17, 17, 16);
+    text-align: center;
+    background-image: url(../images/lukas-bee-T-SkHm-18qQ-unsplash.jpg);
+    background-size:cover;
+    opacity: 100%;
+    padding: 50px;
+    border-radius: 20px;
+font-weight: bold;
+}
+.body{
+     background-color: cadetblue;
+}
