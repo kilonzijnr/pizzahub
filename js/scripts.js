@@ -79,3 +79,8 @@ function totalPrice() {
     }scripts
 };
 
+function includeDelivery() {
+    alert("Your Delivery Fee will be ksh.300") 
+    prompt("Enter your Location")
+    alert("Thankyou!Your order will be delivered in 30minutes!")
+}
