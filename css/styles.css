@@ -44,7 +44,7 @@ font-weight: bold;
 }
 
 .right{
-    float:right;
+    float:left;
     background-color: rgb(255, 255, 8);
 }
 .btn{
@@ -55,9 +55,4 @@ font-weight: bold;
     text-align: center;
     background-image: url(../images/sheri-silver-A4EtgLN1_Fw-unsplash.jpg);
     background-size: cover;
-}
-.summary{
-    float: right;
-    background-color: white;
-    
 }
