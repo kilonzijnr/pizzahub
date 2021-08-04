@@ -68,29 +68,29 @@
         <div class="form-group">
             <label for="select">Choose the size :</label><br>
             <select class="form-group" name="Pizza Size" id="psize" required>
-                <option value="Large">Large; Ksh:1200</option>
-                <option value="Medium">Medium; Ksh:900</option>
-                <option value="Small">Small; Ksh:600</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
             </select>
         </div>
         <br>
         <div class="form-group">
             <label for="select">Choose toppings :</label><br>
             <select class="form-group" name="Toppings type" id="ttype" required>
-                <option value="Pepperoni">Pepperoni</option>
-                <option value="Sausage">Sausage</option>
-                <option value="Bacon">Bacon</option>
-                <option value="Pineapple">Pineapple</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="sausage">Sausage</option>
+                <option value="bacon">Bacon</option>
+                <option value="pineapple">Pineapple</option>
             </select>
         </div>
         <br>
         <div class="form-group">
             <label for="select">Choose crust :</label><br>
             <select class="form-group" name="Crust type" id="ctype" required>
-                <option value="Hawaiian">Chicken Hawaiian</option>
-                <option value="Stuffed Crust">Stuffed Crust</option>
-                <option value="Cracker Crust">Cracker Crust</option>
-                <option value="Thin Crust">Thin Crust</option>
+                <option value="hawaiian">Chicken Hawaiian</option>
+                <option value="stuffed">Stuffed Crust</option>
+                <option value="cracker">Cracker Crust</option>
+                <option value="thin">Thin Crust</option>
             </select>
         </div>
         <br>
@@ -109,15 +109,17 @@
         </div>
         <br>
         <br>
-        <button type="submit" class="right1" onclick="submitOrder()">MAKE ORDER</button>
-       
+        <div class="btns">
+      <button type="button" class="btn" onclick="totalPrice()"><b>MAKE ORDER</b></button>
+       </div>
         </form>
         <br>
         <div class="right2">
             <h5>Thankyou for shopping with us.</h5>
-            <p>Here is your order summary:</p>
+            <p id="output"></p> </p>
         </div>
         <br>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
