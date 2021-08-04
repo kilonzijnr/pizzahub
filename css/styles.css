@@ -56,3 +56,8 @@ font-weight: bold;
     background-image: url(../images/sheri-silver-A4EtgLN1_Fw-unsplash.jpg);
     background-size: cover;
 }
+.summary{
+    float: right;
+    background-color: white;
+    
+}

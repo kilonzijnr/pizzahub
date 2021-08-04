@@ -30,7 +30,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <div class="navheader" style="text-align: center;">
-                    <p>HEARTY HEARTH PIZZA OVEN</p>
+                    <p>HOME</p>
                 </div>
             </div>
         </nav>
@@ -54,6 +54,10 @@
 
     </header>
     <form class="order" id="order">
+        <div class="summary">
+            <h5>ORDER SUMMARY</h5>
+            <p id="output2"></p>
+        </div>
         <div class="form-group">
             <label for="select">Pizza type :</label><br>
             <select class="form-group" name="Pizza Type" id="ptype" required>
@@ -64,7 +68,7 @@
                 <option value="Macon">Chicken Macon</option>
             </select>
         </div><br>
-        
+
         <div class="form-group">
             <label for="select">Choose the size :</label><br>
             <select class="form-group" name="Pizza Size" id="psize" required>
@@ -101,25 +105,26 @@
         </div>
         <br>
         <div class="right">
-            <h6>Kindly choose your delivery mode!</h6>
-            <input type="radio" name="deliverytype" id="delivery">
-            <label for="delivery">Delivery</label>
-            <input type="radio" name="deliverytype" id="pickup">
-            <label for="pick-up">Pick up</label>
+
+            <p id="delivery">Delivery?!</p>
+            <button type="button" class="btn2" onclick="includingDelivery()">Press for delivery</button>
+
+
         </div>
         <br>
         <br>
         <div class="btns">
-      <button type="button" class="btn" onclick="totalPrice()"><b>MAKE ORDER</b></button>
-       </div>
-        </form>
-        <br>
-        <div class="right2">
-            <h5>Thankyou for shopping with us.</h5>
-            <p id="output"></p> </p>
+            <button type="button" class="btn" onclick="totalPrice()"><b>MAKE ORDER</b></button>
         </div>
-        <br>
-        <script src="js/scripts.js"></script>
+    </form>
+    <br>
+    <div class="right2">
+        <h5>Thankyou for shopping with us.</h5>
+        <p id="output"></p>
+        </p>
+    </div>
+    <br>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

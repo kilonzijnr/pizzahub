@@ -72,10 +72,10 @@ function totalPrice() {
     console.log(yourTotalPrice)
 
     if (yourTotalPrice < 0) {
-        alert("This is incorrect please make an order")
+        alert("The order is invalid")
 
     } else {
-        document.getElementById("output").innerHTML = "Your total price for " + numbersOf + " " + size + " " + crust + " " + toppings + " " + "pizza(s) " + " is Ksh. " + yourTotalPrice;
-    }
+        document.getElementById("output").innerHTML = "Your total order for " + numbersOf + " " + size + " " + crust + " " + toppings + " " + "pizza(s) " + " is Ksh. " + yourTotalPrice;
+    }scripts
 };
 
